@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RPG Game</title>
+</head>
+<body>
+    <div id="game">
+        <div id="player-stats">
+            <span class="stats">Health: <span id="healthText">100</span></span>
+            <span class="stats">XP: <span id="xpText">0</span></span>
+            <span class="stats">Gold: <span id="goldText">50</span></span>
+        </div>
+        <div id="monster">
+            <div id="monsterStats">
+                <span class="stats"><strong><span id="monsterNameText"></span>:</strong></span>
+                <span class="stats">Health: <span id="monsterHealthText"></span></span>
+                <span class="stats">XP: <span id="monsterXpText"></span></span>
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="button1">Go to town</button>
+            <button id="button2">Go to cave</button>
+            <button id="button3">Go home</button>
+        </div>
+        <div id="screamText"></div>
+        <div id="text">Welcome adventurer! Hit any button to start your quest.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

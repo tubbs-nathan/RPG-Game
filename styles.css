@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+#game {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgb(13, 80, 181);
+    border-radius: 5px;
+}
+
+#player-stats {
+    font-size: large;
+}
+
+#monsterNameText {
+    color: white;
+}
+
+#monsterStats {
+    margin-top: 10px;
+    display: none;
+}
+
+button {
+    font-size: medium;
+    color: white;
+    background-color: rgb(52, 149, 115);
+    border: none;
+}
+
+#buttons {
+    margin-top: 10px;
+
+}
+
+#screamText {
+    margin-top: 20px;
+    display: none;
+}
+
+#text {
+    margin-top: 20px;
+    font-size: larger;
+}
